@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/*base*/
+body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    padding:0;
+}    
+body {
+    font:normal 12px "맑은고딕", "Malgun Gothic", serif;
+}
+ul {
+    list-style: none;
+}
+img {
+    border:0;
+    vertical-align: top;
+}
+a {
+    text-decoration: none;
+} 
+
+#wrap {
+    width:100%;
+    overflow:hidden;
+} 
+@font-face {
+    font-family: "TwoCon", "TwoCon", serif;
+    src: url(../../data/fonts/TwoCon.ttf);
+}
+@font-face {
+    font-family: "century_regular";
+    src: url(../../data/fonts/century_regular.ttf);
+}
+@font-face {
+    font-family: "Apple_sd_neo";
+    src: url(../../data/fonts/App_sd_neo_b.ttf);
+}
+
+/*header*/
+.header {
+    width:100%;height:150px;position:relative;z-index: 3;background:#fff;
+}
+header .header_top_w {
+    width:100%;
+    height:39px;
+    border-bottom:1px solid #f2f2f2;
+}
+header .header_top {
+    margin:0 auto;
+    width:1100px;
+    height:39px;
+}
+header .language_box {
+    overflow:hidden;
+    width:142px;
+    height:39px;
+    float:left;
+}
+header .language_box .Google_logo {
+    float:left;
+    height:39px;
+}
+header .language_box .language_text {
+    float:left;
+    line-height:39px;
+    text-align:center;
+    font-size:14px;
+}
+header .language_box .Triangle_btn {
+    float:right;
+    line-height:39px;
+    height:39px;
+    padding-right:3px;
+    padding-top:18px;
+    border:none;
+    background-color:#fff;
+}
+header .search_box {
+    float:left;
+    overflow:hidden;
+    height:39px;
+}
+header .search_box .search_btn {
+    float:left;
+    height:39px;
+    line-height:39px;
+    border:none;
+    background-color:#fff;
+}
+header .search_box .search_btn .search_tool {
+    border-left:1px solid #f2f2f2;
+    height:39px;
+    
+}
+header .search_box .search_bar {
+    float:left;
+    border:none;
+    padding-top:3px;
+    padding-left:5px;
+    line-height:39px;
+    width:643px;
+    height:39px;
+}
+header .login_box {
+    overflow:hidden;
+}
+header .login_box li {
+    float:right;
+    font-size:14px;
+    line-height:39px;
+    padding-top:3px;
+    color:#696868;
+}
+header .login_box li a {
+    float:right;
+    color:#696868;
+}
+.header_menu .menu .facebook_btn {
+    position:absolute;
+    float:left;
+    top:-10px;
+    left:800px;
+    border:none;
+    background-color:#fff;
+}
+.header_menu .menu .instagram_btn {
+    position:absolute;
+    float:left;
+    top:-10px;
+    left:870px;
+    border:none;
+    background-color:#fff;
+}
+
+header .header_menu {
+    position:relative;
+    width:100%;
+    height:131px;
+    z-index:3;
+    background:#fff;
+}
+header .header_menu .menu {
+    position:relative;
+    margin:0 auto;
+    width:1100px;
+    height:131px;
+} 
+
+header .header_menu .menu .logo {
+  float:left;  
+}
+header .header_menu .menu .logo img{  
+     margin-top:35px;
+  }
+
+.gnb {
+    float:left;
+    position:absolute;
+    top:60px;
+    left:133px;
+}
+.gnb li {
+    float:left;
+    margin-right:110px;
+}
+.gnb li a {
+    color:#696868;
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:-1px;
+}
+.submenu{margin:0 auto;width:1000px;display: none;}
+.submenu ul{float:left;}
+.submenu ul li{line-height: 1.8;}
+.submenu ul li a{color:#000;font:normal 15px "맑은고딕", "Malgun Gothic", serif;}
+.submenu ul li a:hover{color:#84664d;}
+.submenu ul.sub1{margin-left:82px;}
+.submenu ul.sub2{margin-left:65px;}
+.submenu ul.sub3{margin-left:106px;}
+.submenu ul.sub4{margin-left:123px;}
+.submenu ul.sub5{margin-left:123px;}
+
+.black_back{width:100%;height:100%;position:fixed;top:0;left:0;background:rgba(0,0,0,0.8);z-index: 2;display: none;}
+
+/*footer*/
+
+.footer {
+    width:100%;
+    height:200px;
+    margin-top:50px;
+}
+.footer .foot_menu {
+    width:100%;
+    height:37px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+.footer .foot_menu .foot_menu_in {
+    margin:0 auto;
+    width:1100px;
+    height:37px;
+}
+.footer .foot_menu .foot_menu_in li {
+    float:left;
+    font:normal 14px "Apple_sd_neo", "Apple_sd_neo", serif;
+    padding:10px 22px 0 0;
+}
+.footer .foot_menu .foot_menu_in li a {
+    color:#696868
+}
+.footer_international {
+    float:left;
+    margin-left:200px;
+    width:154px;
+    height:37px;
+    border:1px solid #ddd;
+}
+.footer_international .international_site {
+    float:left;
+    width:148px;
+    height:37px;
+    line-height:37px;
+    background:none;
+    margin-left:30px;
+    color:#696868
+}
+
+.footer .foot_copy {
+    margin:0 auto;
+    width:1100px;
+    height:163px;
+}
+.footer .footer_address {
+    width:1100px;
+    height:160px;
+}
+.footer .footer_address li {
+    width:1100px;
+    height:20px;
+    line-height:20px;
+    font:normal 12px "Apple_sd_neo", "Apple_sd_neo", serif;
+    color:#696868;
+}
+.footer .footer_address li a {
+    font:normal 12px "Apple_sd_neo", "Apple_sd_neo", serif;
+    color:#696868;
+}
+.footer .footer_address .footer_address_text {
+    margin-top:25px;
+}
+.footer .footer_address .footer_logo {
+    float:right;
+    position:absolute;
+    top:3220px;
+    right:510px;
+}

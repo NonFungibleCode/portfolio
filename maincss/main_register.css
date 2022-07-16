@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+/*contents*/
+.contents {
+    margin:0 auto;
+    overflow:hidden;
+    width:1100px;
+    height:2200px;
+}
+.inner_top {
+    width:1100px;
+    height:170px;
+}
+.register_top {
+    float:right;
+    margin-top:42px;
+    width:750px;
+    height:54px;
+}
+.register_terms {
+    float:left;
+    width:300px;
+    height:54px;
+    margin-left:50px;
+}
+.register_terms_text {
+    position: relative;
+    margin-top:6px;
+    line-height:54px;
+    text-align:center;
+    font:normal 38px "TwoCon", "TwoCon", serif;
+    color:#313131
+}
+.deco1 {
+    position:absolute;
+    top:235px;
+    left:800px;
+}
+.deco2 {
+    position:absolute;
+    top:235px;
+    left:1057px;
+}
+.home_register {
+    float:right;
+    margin-top:10px;
+    font-size:14px;
+}
+.register_sns {
+    width:1100px;
+    height:280px;
+}
+.register_logo_text {
+    width:1100px;
+    height:42px;
+    border-bottom:1px solid #cccccc;
+}
+.register_logo {
+    float:left;
+    margin-top:5px;
+}
+.terms_agree {
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+    font:normal 18px "Apple_sd_neo", "Apple_sd_neo", serif;
+    letter-spacing:-1px;
+    color:#000;
+}
+.terms_agree2 {
+    float:left;
+    margin-top:5px;
+    font:normal 18px "Apple_sd_neo", "Apple_sd_neo", serif;
+    color:#a2a2a2;
+}
+.checkbox_div {
+    width:1100px;
+    height:100px;
+    margin-top:20px;
+}
+.chk_all {
+    display:none;
+}
+.chk_all + .chk_all_label {
+    display:inline-block;
+    margin-left:10px;
+    margin-top:9px;
+    width:26px;
+    height:26px;
+    background-image:url(../data/images/checkbox_gray.gif);
+    background-size:contain;
+    cursor: pointer;
+}
+.chk_all:checked + .chk_all_label {
+    background-image:url(../data/images/checkbox_brown.gif);
+    background-size:contain;
+}
+.agree_all_text {
+    position:absolute;
+    top:416px;
+    left:450px;
+}
+.checkbox_div a {
+    font-size: 15px;
+    color:#666666;
+    letter-spacing:-1px;
+}
+.naver_register_box {
+    width:1100px;
+    height:120px;
+}
+.register_sns_account {
+    margin-top:30px;
+    margin-left:10px;
+}
+.naver_register {
+    margin-top:10px;
+    width:289px;
+    height:46px;
+}
+.naver_logobox {
+    float:left;
+    width:47px;
+    height:46px;
+    border-right:1px solid #fff;
+    background-color:#1bc603
+}
+.naver_logo {
+    margin-top:15px;
+}
+.naver_textbox {
+    float:left;
+    width:241px;
+    height:46px;
+    background-color:#1bc603
+}
+.naver_register_text {
+    text-align:center;
+    font:normal 13px "맑은 고딕", "Malgun Gothic", serif;
+    margin-top:13px;
+    color:#fff;
+}
+.naver_register_btn {
+    border:none;
+    background:none;
+}
+.private_info {
+    margin-top:30px;
+    margin-left:10px;
+}
+.agree_contents1 {
+    width:1098px;
+    height:288px;
+    border:1px solid #a2a2a2;
+    margin-top:20px;
+}
+.private_policy_img {
+    margin-left:40px;
+}
+.agree_policy1 {
+    width:1100px;
+    height:60px;
+    margin-top:10px;
+}
+.select1 input[type=radio] {
+    display:none;
+}
+.select1 input[type=radio]+label {
+    display:inline-block;
+    margin-top:14px;
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    background-image:url(../data/images/checkcircle_gray.gif);
+}
+.select1 input[type=radio]:checked+label {
+    background-image:url(../data/images/checkcircle_brown.gif);
+}
+.register_agree {
+    width:500px;
+    height:20px;
+    margin-top:30px;
+}
+.agree_contents2 {
+    width:1098px;
+    height:288px;
+    border:1px solid #a2a2a2;
+    margin-top:30px;
+}
+.select2 input[type=radio] {
+    display:none;
+}
+.select2 input[type=radio]+label {
+    display:inline-block;
+    margin-top:14px;
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    background-image:url(../data/images/checkcircle_gray.gif);
+}
+.select2 input[type=radio]:checked+label {
+    background-image:url(../data/images/checkcircle_brown.gif);
+}
+.service_terms_img {
+    margin-left:40px;
+}
+.agree_policy2 {
+    width:1100px;
+    height:60px;
+    margin-top:10px;
+}
+.register_agree2 {
+    width:1100px;
+    height:80px;
+}
+.register_agree2_h2 {
+    margin-top:20px;
+}
+.register_agree2_text {
+    font:normal 16px "맑은 고딕", "Malgun Gothic", serif;
+    color:#666666;
+    margin-top:30px;
+    letter-spacing:-1px;
+}
+.agree_contents3 {
+    width:1098px;
+    height:289px;
+    margin-top:50px;
+    border:1px solid #a2a2a2;
+}
+.private_information_img {
+    margin-left:40px;
+    margin-top:10px;
+}
+.agree_policy3 {
+    width:1100px;
+    height:60px;
+    margin-top:10px;
+}
+.select3 input[type=radio] {
+    display:none;
+}
+.select3 input[type=radio]+label {
+    display:inline-block;
+    margin-top:14px;
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    background-image:url(../data/images/checkcircle_gray.gif);
+}
+.select3 input[type=radio]:checked+label {
+    background-image:url(../data/images/checkcircle_brown.gif);
+}
+.agree_marketing_text {
+    width:1100px;
+    height:40px;
+    margin-top:40px;
+}
+.agree_marketing_box {
+    width:1100px;
+    height:82px;
+    margin-top:50px;
+    border-top:1px solid #a2a2a2;
+    border-bottom:1px solid #a2a2a2;;
+}
+.marketing_ivorybox {
+    position:relative;
+    float:left;
+    width:208px;
+    height:81px;
+    background:#f5f0dc;
+}
+.marketing_ivorybox_text {
+    position:absolute;
+    font:bold 15px "맑은 고딕", "Malgun Gothic", serif;
+    letter-spacing:-2px;
+    color:#333333;
+    top:30px;
+    left:22px;
+}
+.marketing_check {
+    float:left;
+    width:890px;
+    height:82px;
+}
+.event_notify {
+    font:normal 10px "맑은 고딕", "Malgun Gothic", serif;
+    color:red;
+    letter-spacing:-1px;
+}
+.previous_nextbox {
+    margin:0 auto;
+    margin-top:60px;
+    width:400px;
+    height:60px;
+    border:1px solid red;
+}
+.previousbox {
+    float:left;
+    width:180px;
+    height:60px;
+    background:#b4b4b4
+}
+.nextbox {
+    float:left;
+    margin-left:40px;
+    width:180px;
+    height:60px;
+    background:#796353
+}
